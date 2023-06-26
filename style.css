@@ -1,0 +1,108 @@
+body{
+    background-color: #3a86ff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.cart{
+    padding: 1em;
+    width: 100%;
+    margin-top: 2em;
+    background-color: #ffbe0b;
+}
+table{
+    border-collapse: collapse;
+    width: 80%;
+    margin: auto;
+}
+td{
+    text-align: center;
+    vertical-align: bottom;
+}
+th, td{
+    text-align: center;
+    border: 1px solid black;
+    padding: 15px;
+}
+.main{
+    flex: 1;
+    margin: auto;
+    display: flex;
+    }
+.display{
+    display: flex;
+    }
+    .a2{
+        margin: 1em;
+        padding: 1em;
+    }
+    .aa{
+        margin-left: 50%;
+        display: flex;
+    }
+    .btn5{
+        background-color: white;
+        width: 85px;
+        border-radius: 0.3em;
+    }
+    .btn6{
+        background-color: white;
+        width: 60px;
+        border-radius: 0.3em;
+    }
+    .btn7{
+        background-color: white;
+        width: 60px;
+        border-radius: 0.3em;
+    }
+    .btnopen{
+        color: black;
+        background-color: white;
+        width: 85px;
+        border-radius: 0.5em;
+    }
+
+    .messege{
+        background-color: black;
+        color: white;
+        margin: 1em;
+        font-size: large;
+    }
+    .cart-box{
+        display: inline;
+        background-color: blueviolet;
+    }
+h1,h2{
+    text-align: center;
+}
+.pizza{
+    /*BoxModel*/
+    border: 1px solid black;
+    padding: 1em;
+    margin: 1em;
+    margin-bottom: 0.5em;
+    border-radius: 0.5em;
+    flex: 1;
+}
+img{
+    margin:auto;
+    padding-top: 5px;
+}
+.large_pizza{
+    background-color: #8338ec;
+}
+.medium_pizza{
+    background-color: #ff006e;
+}
+.small_pizza{
+    background-color: #fb5607;
+}
+.contact_us{
+    background-color: #ffbe0b;
+    padding: 1em;
+    margin: 1em;
+}
+
+@media(min-width: 768px){
+    .pizzas{
+        display:flex;
+    }
+}
